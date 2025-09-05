@@ -177,7 +177,6 @@ class Register extends StatelessWidget {
                               GenderSelection(genderController: genderCon),
                               SizedBox(height: height * 0.03),
 
-                              // زرار Register
                               SizedBox(
                                 width: double.infinity,
                                 height: 55,
