@@ -1,16 +1,60 @@
-# laptop_store
+# Laptop Store
 
-A new Flutter project.
+A Flutter e-commerce application for browsing laptop products and managing a shopping experience.
+
+## Overview
+
+Laptop Store is a mobile application built with Flutter and Dart. It focuses on presenting laptop products and organizing the main shopping flows, including product data, favorites, and cart management.
+
+## Features
+
+- Browse laptop products.
+- Load product data through an API using Dio.
+- Add and manage favorite products.
+- Manage shopping cart data.
+- Reactive state management with Cubit/Bloc.
+- Reusable feature-oriented application structure.
+
+## Tech Stack
+
+| Area | Technologies |
+| --- | --- |
+| Framework | Flutter, Dart |
+| State management | flutter_bloc, Bloc |
+| Networking | Dio |
+| UI | Material, Cupertino Icons |
+| Development tools | Android Studio, Git, GitHub |
+
+## Project Structure
+
+The application separates its main shopping features into dedicated areas, including product data, favorites, and cart functionality.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Requirements
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK compatible with the constraint in `pubspec.yaml`
+- Android Studio or another Flutter-supported IDE
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Run the project
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/elghamry55/laptop_store.git
+cd laptop_store
+flutter pub get
+flutter run
+```
+
+## Screenshots
+
+Screenshots will be added to this section.
+
+## Developer
+
+**Mahmoud Elghamry**  
+Flutter Developer
+
+---
+
+*This project is part of my Flutter mobile development portfolio.*
