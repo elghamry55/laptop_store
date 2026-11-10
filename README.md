@@ -1,5 +1,12 @@
 # Laptop Store
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Language-Dart-0175C2?logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/State%20Management-Cubit-764ABC" alt="Cubit" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84" alt="Platforms" />
+</p>
+
 A Flutter e-commerce application for browsing laptop products and managing a shopping experience.
 
 ## Overview
