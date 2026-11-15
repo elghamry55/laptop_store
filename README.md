@@ -1,50 +1,41 @@
 # Laptop Store
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-Framework-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Language-Dart-0175C2?logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/State%20Management-Cubit-764ABC" alt="Cubit" />
-  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84" alt="Platforms" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Dio-00A98F?style=for-the-badge" alt="Dio" />
+  <img src="https://img.shields.io/badge/BLoC%20%2F%20Cubit-764ABC?style=for-the-badge" alt="BLoC and Cubit" />
 </p>
 
-A Flutter e-commerce application for browsing laptop products and managing a shopping experience.
-
-## Overview
-
-Laptop Store is a mobile application built with Flutter and Dart. It focuses on presenting laptop products and organizing the main shopping flows, including product data, favorites, and cart management.
+A Flutter e-commerce application for browsing laptop products and managing core shopping interactions. The project focuses on product data retrieval, favorites, and cart functionality.
 
 ## Features
 
 - Browse laptop products.
-- Load product data through an API using Dio.
+- Retrieve product data through REST API requests using Dio.
 - Add and manage favorite products.
 - Manage shopping cart data.
-- Reactive state management with Cubit/Bloc.
-- Reusable feature-oriented application structure.
+- Handle application state with BLoC/Cubit.
+- Organize the main shopping features into separate areas.
 
-## Tech Stack
+## Technology Stack
 
-| Area | Technologies |
+| Technology | Usage |
 | --- | --- |
-| Framework | Flutter, Dart |
-| State management | flutter_bloc, Bloc |
-| Networking | Dio |
-| UI | Material, Cupertino Icons |
-| Development tools | Android Studio, Git, GitHub |
-
-## Project Structure
-
-The application separates its main shopping features into dedicated areas, including product data, favorites, and cart functionality.
+| Flutter & Dart | Cross-platform mobile development |
+| flutter_bloc / Cubit | State management |
+| Dio | REST API communication |
+| Material & Cupertino Icons | UI components |
 
 ## Getting Started
 
 ### Requirements
 
 - Flutter SDK
-- Dart SDK compatible with the constraint in `pubspec.yaml`
-- Android Studio or another Flutter-supported IDE
+- Dart SDK compatible with the project's `pubspec.yaml`
+- Android Studio, VS Code, or another Flutter-supported IDE
 
-### Run the project
+### Run locally
 
 ```bash
 git clone https://github.com/elghamry55/laptop_store.git
@@ -53,15 +44,6 @@ flutter pub get
 flutter run
 ```
 
-## Screenshots
-
-Screenshots will be added to this section.
-
 ## Developer
 
-**Mahmoud Elghamry**  
-Flutter Developer
-
----
-
-*This project is part of my Flutter mobile development portfolio.*
+**Mahmoud Elghamry** · Flutter Developer
